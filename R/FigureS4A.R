@@ -111,7 +111,7 @@ for (i in gene_set_list) {
     show_heatmap_legend = FALSE,
     top_annotation = Annotation,
     row_dend_reorder = FALSE,
-    height = unit(n_rows * row_mm, "mm")  # fits within the available area
+    height = unit(n_rows * row_mm, "mm") 
   )
   
   # TIFF output: device height is height_in (unchanged)
